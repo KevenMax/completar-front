@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+@font-face{
+  font-family: 'Comfortaa';
+  src: url('./fonts/Comfortaa/Comfortaa-Regular.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Comfortaa-Bold';
+  src: url('./fonts/Comfortaa/Comfortaa-Bold.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Montserrat-Bold';
+  src: url('./fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Montserrat-Medium';
+  src: url('./fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Montserrat-SemiBold';
+  src: url('./fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+.Toastify__toast--error{
+  background: #BD362F;
+}
+.Toastify__toast-body{
+  font-family: 'Montserrat-SemiBold', Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: white;
+}

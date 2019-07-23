@@ -1,0 +1,85 @@
+section#sign-in{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to top left, #2b8aeb, #b275f4);
+  display: flex;
+  justify-content: center;
+}
+
+section#sign-in .container{
+  width: 30%;
+  height: 85%;
+  margin: 40px 0;
+  padding: 40px 60px;
+  border-radius: 10px;
+  background: #FFFF;
+  text-align: center;
+}
+
+section#sign-in .container img{
+  width: 52%;
+  display: flex;
+  margin: 30px auto;
+}
+
+section#sign-in .container form{
+  margin: 30px 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+section#sign-in .container input{
+  border: 0 solid;
+  margin: 25px 0 0 0;
+  padding: 0 10px;
+  border-radius: 40px;
+  background: #d1d8fa;
+  text-align: center;
+  font-size: 14px;
+  height: 35px;
+  font-family: 'Comfortaa';
+}
+
+section#sign-in .container button{
+  height: 35px;
+  margin: 30px 0;
+  cursor: pointer;
+  border: 0px solid;
+  border-radius: 40px;
+  background: #9479f2;
+  text-align: center;
+  font-size: 1rem;
+  color: #FFFF;
+}
+
+section#sign-in .container a{
+  color: #9479f2;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+@media(max-width: 1000px){
+  section#sign-in .container{
+    width: 40%;
+  }
+  section#sign-in .container img{
+    width: 30%;
+    display: flex;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 600px){
+  section#sign-in .container{
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    margin: 0;
+    
+  }
+  section#sign-in .container img{
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+  }
+}
